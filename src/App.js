@@ -1,14 +1,15 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
+import Menu from './Menu/Menu.js';
+import Nasa from './Nasa/Nasa.js';
+import { Container } from './Styles/Styles.js';
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
-    </div>
+    <Container>
+      <Menu />
+      <Nasa />
+    </Container>
   );
 }
 
