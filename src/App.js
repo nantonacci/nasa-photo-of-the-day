@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 import './App.css';
 import Menu from './Menu/Menu.js';
 import Nasa from './Nasa/Nasa.js';
