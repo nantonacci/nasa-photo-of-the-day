@@ -3,17 +3,14 @@ import styled from 'styled-components';
 import './App.css';
 import Menu from './Menu/Menu.js';
 import Nasa from './Nasa/Nasa.js';
+import { Container } from './Styles/Styles.js';
 
 function App() {
   return (
-    <div className="App">
+    <Container>
       <Menu />
-      {/* <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p> */}
       <Nasa />
-    </div>
+    </Container>
   );
 }
 

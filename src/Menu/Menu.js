@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import { Header, Title, Navigation, Link } from '../Styles/Styles.js';
 
 function Menu() {
   return (
-    <div className="header">
-      <h1>NASA Pic of the Day</h1>
-      <nav>
-        <a href="https://api.nasa.gov/api.html#apod">NASA APIs</a>
-        <a href="https://apod.nasa.gov/apod/astropix.html">
+    <Header>
+      <Title>NASA Pic of the Day</Title>
+      <Navigation>
+        <Link href="https://api.nasa.gov/api.html#apod">NASA APIs</Link>
+        <Link href="https://apod.nasa.gov/apod/astropix.html">
           NASA Official Astronomy Picture of the Day
-        </a>
-      </nav>
-    </div>
+        </Link>
+      </Navigation>
+    </Header>
   );
 }
 
