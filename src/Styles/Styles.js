@@ -5,6 +5,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(to top, #335272 0%, #e5e9ed 100%);
 `;
 
 const Welcome = styled.h2`
@@ -17,7 +18,7 @@ const Header = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px dashed #c0d8f0;
+  border-bottom: 1px dashed #335272;
   width: 50%;
 `;
 

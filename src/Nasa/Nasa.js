@@ -26,7 +26,7 @@ function Nasa() {
     Axios.get(
       `https://api.nasa.gov/planetary/apod?api_key=Z4aPZQVLegx9gaRUH09jVVuDZjxKQL8ipFpwO2pY`
     )
-      //.then(res => setNasaPic(res.data.message))
+
       .then(data => {
         console.log(data);
         setNasaPic(data.data.url);
